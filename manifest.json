@@ -1,10 +1,10 @@
 {
-  "id": "react-starter",
-  "name": "React Starter",
-  "description": "Obsidian + ReactJS",
-  "version": "0.0.0",
-  "author": "Liam Cain",
-  "authorUrl": "https://github.com/liamcain/",
-  "isDesktopOnly": true,
-  "minAppVersion": "0.10.8"
+  "id": "kplex",
+  "name": "KPlex",
+  "description": "Obsidian KPlex plugin",
+  "version": "0.0.1",
+  "author": "Zsolt Viczián",
+  "authorUrl": "https://github.com/zsviczian/",
+  "isDesktopOnly": false,
+  "minAppVersion": "1.1.5"
 }
