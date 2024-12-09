@@ -1,0 +1,1 @@
+const VIEW_TYPE = "react-view";
