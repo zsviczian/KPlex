@@ -1,8 +1,8 @@
 {
-  "name": "obsidian-react-starter",
-  "version": "0.0.1",
-  "description": "Obsidian + ReactJS",
-  "author": "liamcain",
+  "name": "kplex",
+  "version": "0.1.0",
+  "description": "Knowledge Plex - Visual PKM using Obsidian Bases API",
+  "author": "Zsolt Viczián",
   "main": "main.js",
   "license": "MIT",
   "scripts": {
@@ -17,12 +17,11 @@
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "obsidian-dataview": "^0.5.67"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "tslib": "^2.6.1",
-    "obsidian": "1.7.2",
+    "obsidian": "latest",
     "cross-env": "^7.0.3",
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",

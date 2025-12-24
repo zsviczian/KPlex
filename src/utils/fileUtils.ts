@@ -7,15 +7,6 @@ export const getFilenameFromPath = (path:string):string => {
   return mdFile ? filename.slice(0,-3) : filename;
 }
 
-const getExtension = (path:string):string => {
-  if(!path) {
-    return;
-  }
-  const extension = path.match(/\.([^\s\/\.]*)$/);
-  if(!extension) return "md";
-  return extension[1];
-}
-
 export function splitFolderAndFilename(filepath: string): {
   folderpath: string;
   filename: string;

@@ -17,7 +17,7 @@ export default {
     file: `${DIST_FOLDER}/main.js`,
     format: "cjs",
     exports: "default",
-    SourceMap: !isProd, 
+    sourcemap: !isProd, 
   },
   external: ["obsidian", "fs", "os", "path"],
   plugins: [

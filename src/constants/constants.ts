@@ -1,1 +1,1 @@
-const VIEW_TYPE = "react-view";
+export const VIEW_TYPE = "kplex-view";

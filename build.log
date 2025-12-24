@@ -1,0 +1,26 @@
+
+> kplex@0.1.0 build
+> cross-env NODE_ENV=production npm run lint && cross-env NODE_ENV=production rollup -c
+
+
+> kplex@0.1.0 lint
+> eslint '**/*.ts'
+
+
+/workspaces/KPlex/src/index.ts
+  57:17  error  Parsing error: ',' expected
+
+/workspaces/KPlex/src/utils/datehelpers.ts
+   22:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+   33:5  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+   64:5  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+   95:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  119:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  143:3  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+
+/workspaces/KPlex/src/utils/fileUtils.ts
+  10:7  error  '_getExtension' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 8 problems (2 errors, 6 warnings)
+  0 errors and 6 warnings potentially fixable with the `--fix` option.
+

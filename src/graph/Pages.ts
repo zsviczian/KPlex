@@ -37,7 +37,7 @@ export class Pages {
   public delete(toBeDeletedPath:string) {
     const page = this.pages.get(toBeDeletedPath);
     if(!page) return;
-    page.neighbours.forEach((relation:Relation, neighbourPath:string) => {
+    page.neighbours.forEach((_relation:Relation, neighbourPath:string) => {
       const p = this.pages.get(neighbourPath);
       if(!p) return;
       p.unlinkNeighbour(toBeDeletedPath);

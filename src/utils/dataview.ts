@@ -2,7 +2,6 @@ import { App, TFile, moment } from "obsidian";
 import { Literal } from "obsidian-dataview/lib/data-model/value";
 import KPlex from "src";
 import { linkRegex } from "src/graph/URLParser";
-import { KPlexSettings } from "src/Settings";
 
 
 const getPathOrSelf = (app: App, link:string, hostPath:string):string => {
@@ -39,7 +38,7 @@ const readLinksFromString = (app: App, data: string, file:TFile):string[] => {
   return Array.from(res);
 }
 
-const readDailyNoteLinks = (plugin: KPlex, data: any[], file:TFile):string[] => {
+const readDailyNoteLinks = (plugin: KPlex, data: any[]):string[] => {
   const res = new Set<string>();
   data.forEach((l:any)=>{
     if(l?.hasOwnProperty?.("ts")) {

@@ -1,4 +1,4 @@
-import { App, TFile, Vault } from "obsidian";
+import { App, TFile } from "obsidian";
 import KPlex from "src";
 
 export interface FileURL {
@@ -40,7 +40,7 @@ export class URLParser {
   private getOrigin(url:string, file: TFile):string {
     try {
       return new URL(url).origin;
-    } catch (e) {
+    } catch {
       console.log(`ExcaliBrain URLParser: Invalid URL ${url} in file ${file.path}`);
       return ":Unknown Origin:";
     }

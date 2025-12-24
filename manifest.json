@@ -1,10 +1,10 @@
 {
   "id": "kplex",
   "name": "KPlex",
-  "description": "Obsidian KPlex plugin",
-  "version": "0.0.1",
+  "description": "Knowledge Plex - Visual personal knowledge management using Obsidian Bases API",
+  "version": "0.1.0",
   "author": "Zsolt Viczián",
   "authorUrl": "https://github.com/zsviczian/",
   "isDesktopOnly": false,
-  "minAppVersion": "1.1.5"
+  "minAppVersion": "1.4.0"
 }
