@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "tslib": "^2.6.1",
-    "obsidian": "1.7.2",
+    "obsidian": "latest",
     "cross-env": "^7.0.3",
     "@babel/core": "^7.22.9",
     "@babel/preset-react": "^7.22.5",

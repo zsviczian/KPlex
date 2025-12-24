@@ -24,7 +24,7 @@ class MyReactView extends ItemView {
   async onOpen(): Promise<void> {
     this.reactComponent = React.createElement(DiceRoller);
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+     
     ReactDOM.render(this.reactComponent, (this as any).contentEl);
   }
 }
